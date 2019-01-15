@@ -18,18 +18,18 @@ namespace UsingIf
 
         static void IfPractice()
         {
-            Console.WriteLine("请输入一个整数: ");
+            Console.WriteLine("请输入一个整�? ");
             int iInput = Convert.ToInt32(Console.ReadLine());
             if (iInput%2!=0)
             {
-                Console.WriteLine(iInput + "是一个奇数!");
+                Console.WriteLine(iInput + "是一个奇�?");
             }
             Console.ReadLine();
         }
 
         static void IfElsePractice()
         {
-            Console.WriteLine("请输入你的分数: ");
+            Console.WriteLine("请输入你的分�? ");
             float Score = Convert.ToSingle(Console.ReadLine());
             if (Score>90)
             {
@@ -37,30 +37,30 @@ namespace UsingIf
             }
             else
             {
-                Console.WriteLine("请继续努力!");
+                Console.WriteLine("请继续努�?");
             }
             Console.ReadLine();
         }
 
         static void IfElseifPractice()
         {
-            Console.WriteLine("请输入您的年龄:");
+            Console.WriteLine("请输入您的年�?");
             int YouAge = Convert.ToInt32(Console.ReadLine());
             if (YouAge<=18)
             {
-                Console.WriteLine("你还年轻，要继续努力！");
+                Console.WriteLine("你还年轻，要继续努力�?);
             }
             else if (YouAge>18&&YouAge<=30)
             {
-                Console.WriteLine("您现在是奋斗的黄金时期!");
+                Console.WriteLine("您现在是奋斗的黄金时�?");
             }
             else if (YouAge>30&&YouAge<=50)
             {
-                Console.WriteLine("您现在是黄金时期！好好享受吧！");
+                Console.WriteLine("您现在是黄金时期！好好享受吧�?);
             }
             else
             {
-                Console.WriteLine("最美不过夕阳红！");
+                Console.WriteLine("最美不过夕阳红�?);
             }
             Console.ReadLine();
             
