@@ -18,55 +18,53 @@ namespace UsingIf
 
         static void IfPractice()
         {
-            Console.WriteLine("璇疯緭鍏ヤ竴涓暣鏁? ");
+            Console.WriteLine("请输入一个整数: ");
             int iInput = Convert.ToInt32(Console.ReadLine());
-            if (iInput%2!=0)
+            if (iInput % 2 != 0)
             {
-                Console.WriteLine(iInput + "鏄竴涓鏁?");
+                Console.WriteLine(iInput + "是一个奇数!");
             }
             Console.ReadLine();
         }
 
         static void IfElsePractice()
         {
-            Console.WriteLine("璇疯緭鍏ヤ綘鐨勫垎鏁? ");
+            Console.WriteLine("请输入你的分数: ");
             float Score = Convert.ToSingle(Console.ReadLine());
-            if (Score>90)
+            if (Score > 90)
             {
-                Console.WriteLine("浣犲緢浼樼!");
+                Console.WriteLine("你很优秀!");
             }
             else
             {
-                Console.WriteLine("璇风户缁姫鍔?");
+                Console.WriteLine("请继续努力!");
             }
             Console.ReadLine();
         }
 
         static void IfElseifPractice()
         {
-            Console.WriteLine("璇疯緭鍏ユ偍鐨勫勾榫?");
+            Console.WriteLine("请输入您的年龄:");
             int YouAge = Convert.ToInt32(Console.ReadLine());
-            if (YouAge<=18)
+            if (YouAge <= 18)
             {
-                Console.WriteLine("浣犺繕骞磋交锛岃缁х画鍔姏锛?);
+                Console.WriteLine("你还年轻，要继续努力！");
             }
-            else if (YouAge>18&&YouAge<=30)
+            else if (YouAge > 18 && YouAge <= 30)
             {
-                Console.WriteLine("鎮ㄧ幇鍦ㄦ槸濂嬫枟鐨勯粍閲戞椂鏈?");
+                Console.WriteLine("您现在是奋斗的黄金时期!");
             }
-            else if (YouAge>30&&YouAge<=50)
+            else if (YouAge > 30 && YouAge <= 50)
             {
-                Console.WriteLine("鎮ㄧ幇鍦ㄦ槸榛勯噾鏃舵湡锛佸ソ濂戒韩鍙楀惂锛?);
+                Console.WriteLine("您现在是黄金时期！好好享受吧！");
             }
             else
             {
-                Console.WriteLine("鏈�缇庝笉杩囧闃崇孩锛?);
+                Console.WriteLine("最美不过夕阳红！");
             }
             Console.ReadLine();
-            
-            static void IfInIf()
             {
-                Console.WriteLine();   
+
             }
         }
     }
