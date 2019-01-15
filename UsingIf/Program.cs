@@ -63,6 +63,11 @@ namespace UsingIf
                 Console.WriteLine("最美不过夕阳红！");
             }
             Console.ReadLine();
+            
+            static void IfInIf()
+            {
+                Console.WriteLine();   
+            }
         }
     }
 }
