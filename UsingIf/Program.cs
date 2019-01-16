@@ -12,8 +12,8 @@ namespace UsingIf
         {
             //IfPractice();
             //IfElsePractice();
-            IfElseifPractice();
-
+            //IfElseifPractice();
+            IfInIf();
         }
 
         static void IfPractice()
@@ -63,9 +63,12 @@ namespace UsingIf
                 Console.WriteLine("最美不过夕阳红！");
             }
             Console.ReadLine();
-            {
+        }
 
-            }
+        static void IfInIf()
+        {
+            Console.WriteLine();
+            Console.ReadLine();
         }
     }
 }
